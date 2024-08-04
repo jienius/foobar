@@ -14,11 +14,11 @@ export default function Footer() {
                 </div>
             </div>
             <div className="w-11/12 bg-black m-5" style={{ height: "1px"}}/>
-            <div className="w-11/12 space-x-5 m-5">
-                <span>
+            <div className="w-11/12 m-5">
+                <div className="text-center w-full lg:inline lg:w-1/2">
                     © 2024 Royal Regal Realty LTD. All rights reserved.
-                </span>
-                <div className="float-right space-x-5">
+                </div>
+                <div className="text-center w-full lginline lg:w-1/2 lg:float-right space-x-5">
                     <a>Privacy Policy</a>
                     <a>Terms of Service</a>
                     <a>Cookies Settings</a>

@@ -1,7 +1,7 @@
 export default function LandingPage() {
   return (
     <div>
-      <div className="bg-cover bg-center flex justify-content items-center" style={{ backgroundImage: "url('/images/hero.png')", height: "500px"}}>
+      <div className="bg-cover bg-center flex justify-content items-center" style={{ backgroundImage: "url('/images/hero.png')", height: "500px" }}>
         <div className="w-full mx-10 md:w-1/2">
           <div>
             <h1 className="text-xl font-bold md:text-4xl">
@@ -29,20 +29,20 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="w-full bg-brand-pearl p-10">
-          <div className="w-full text-black">
-            <h1 className="text-4xl font-bold">Our Listings</h1>
-            <p >Browse our collection of stunning properties</p>
+        <div className="w-full text-black">
+          <h1 className="text-4xl font-bold">Our Listings</h1>
+          <p >Browse our collection of stunning properties</p>
+        </div>
+        <div className="flex items-center w-full my-8">
+          <div className="absolute left-4 flex h-10 w-10 rounded-full bg-white border-brand-yellow border-2 text-brand-yellow text-lg items-center justify-center cursor-pointer">
+            &lt;
           </div>
-          <div className="flex items-center w-full my-8">
-            <div className="absolute left-4 flex h-10 w-10 rounded-full bg-white border-brand-yellow border-2 text-brand-yellow text-lg items-center justify-center cursor-pointer"> 
-              &lt; 
-            </div>
-            <img src="/images/listings.png" />
-            <div className="absolute right-4 flex h-10 w-10 rounded-full bg-white border-brand-yellow border-2 text-brand-yellow text-lg items-center justify-center cursor-pointer"> 
-              &gt; 
-            </div>
+          <img src="/images/listings.png" />
+          <div className="absolute right-4 flex h-10 w-10 rounded-full bg-white border-brand-yellow border-2 text-brand-yellow text-lg items-center justify-center cursor-pointer">
+            &gt;
           </div>
-        <div/>
+        </div>
+        <div />
       </div>
       <div className="w-full bg-white p-10">
         <h1 className="text-4xl font-bold w-full text-brand-yellow text-center">Why Choose Us</h1>
@@ -53,12 +53,12 @@ export default function LandingPage() {
             <p className="text-black text-left">Our agents are experienced and dedicated to finding your perfect home.</p>
           </div>
           <div className="basis-full md:basis-1/2 lg:basis-1/3 p-3 min-w-20">
-            <img src="images/2.png" className="w-full my-5"/>
+            <img src="images/2.png" className="w-full my-5" />
             <h2 className="text-black font-bold text-center">Wide Listings</h2>
             <p className="text-black text-left">We offer a diverse range of properties to suit all needs.</p>
           </div>
           <div className="basis-full md:basis-1/2 lg:basis-1/3 p-3 min-w-20">
-            <img src="images/3.png" className="w-full my-5"/>
+            <img src="images/3.png" className="w-full my-5" />
             <h2 className="text-black font-bold text-center">Market Insights</h2>
             <p className="text-black text-left">Stay informed with the least market trends and data</p>
           </div>

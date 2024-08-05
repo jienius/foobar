@@ -4,6 +4,7 @@ import Footer from "./footer";
 import "./globals.css";
 import Header from "./header";
 import Head from "next/head";
+import { AuthContext, AuthContextProvider } from "@/context/auth";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,14 +20,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
-      <body className={inter.className}>
-        <Header />
+      <AuthContextProvider>
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </Head>
+        <body className={inter.className}>
+          <Header />
           {children}
-        <Footer />
-      </body>
+          <Footer />
+        </body>
+      </ AuthContextProvider>
     </html>
   );
 }
